@@ -65,7 +65,45 @@ These recommendations reduce process variation while improving consistency and m
 - Reduced unnecessary energy usage by recommending smaller batch sizes
 - Applied Lean Six Sigma DMAIC methodology to a real-world process
 
-## MOST Analysis
+### Process Data Summary
+
+## Summary
+
+A total of twelve cooking experiments were conducted to evaluate how process changes affected preparation time, cooking efficiency, and overall workflow. Each experiment recorded the duration of every major process step, allowing bottlenecks and process improvements to be identified over time.
+
+#### Overall Time Study
+
+| Log | Potatoes | Frying Time | Total Time | Key Observation |
+|------|---------:|------------:|-----------:|-----------------|
+| #1 | 2 | 20:00 | 42:29 | Baseline process established |
+| #2 | 3 | 33:33 | 1:00:50 | Oil not fully preheated |
+| #3 | 4 | 48:00 | 1:31:50 | Equipment limitations appeared |
+| #4 | 4 | 45:00 | 1:17:29 | Lemon-water experiment |
+| #5 | 4 | 22:00 | 50:19 | Most efficient overall process |
+| #6 | 5 | 1:28:00 | 2:20:14 | Largest bottleneck observed |
+| #7 | 4 | 57:34 | 1:33:51 | Preparation improved, frying remained bottleneck |
+| #8 | 4 | 40:07 | 1:18:03 | Fastest preparation stages |
+| #9 | 7 | 43:20 | 1:25:41 | Old knife proved more efficient |
+| #10 | 5 | 1:19:34 | 2:25:24 | Parallel workflow introduced |
+| #11 | 4 | 55:00 | 1:38:34 | Process flaws, successful outcome |
+| #12 | 6 | 1:09:10 | 1:59:57 | Smaller batches recommended |
+
+**Note:** In Log #10, the recorded total time includes overlapping vinegar-water boiling and post-boil drying activities. The actual elapsed ("wall-clock") time was somewhat shorter because these two tasks were performed in parallel.
+
+#### Major Process Findings
+
+| Observation | Finding |
+|-------------|---------|
+| Primary Bottleneck | Frying consistently consumed the largest portion of total process time. |
+| Batch Size | Larger batches increased total cooking time disproportionately. |
+| Equipment | Small pot size reduced boiling and frying efficiency. |
+| Knife Selection | The original knife provided faster, more consistent cutting than the newer knife. |
+| Workflow | Overlapping boiling and drying reduced idle time. |
+| Standardized Process | Repeating the same workflow improved consistency across later experiments. |
+
+Overall, the collected data demonstrated that improvements to preparation stages reduced manual work, but system throughput remained constrained by the frying operation. Future process improvements should prioritize heat management, equipment capacity, and batch sizing to further reduce total cycle time.
+
+### MOST Analysis
 
 The crispy potato process was evaluated from a work measurement perspective using MOST (Maynard Operation Sequence Technique).
 
@@ -78,9 +116,6 @@ Although a complete MOST time standard was not developed for this project, sever
 - Organizing tools and workspace during preparation
 
 A future MOST analysis could establish standard times for each manual operation, identify unnecessary motions, and further reduce overall process time through improved work methods.
-
-## Process Maps
-Coming soon...
 
 ## Process Maps
 
