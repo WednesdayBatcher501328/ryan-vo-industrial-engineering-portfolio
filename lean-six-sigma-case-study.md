@@ -67,8 +67,6 @@ These recommendations reduce process variation while improving consistency and m
 
 ### Process Data Summary
 
-## Summary
-
 A total of twelve cooking experiments were conducted to evaluate how process changes affected preparation time, cooking efficiency, and overall workflow. Each experiment recorded the duration of every major process step, allowing bottlenecks and process improvements to be identified over time.
 
 #### Overall Time Study
@@ -102,6 +100,18 @@ A total of twelve cooking experiments were conducted to evaluate how process cha
 | Standardized Process | Repeating the same workflow improved consistency across later experiments. |
 
 Overall, the collected data demonstrated that improvements to preparation stages reduced manual work, but system throughput remained constrained by the frying operation. Future process improvements should prioritize heat management, equipment capacity, and batch sizing to further reduce total cycle time.
+
+#### Bottleneck Analysis
+
+Throughout the twelve cooking experiments, several recurring bottlenecks were identified. While preparation times generally improved through practice and workflow refinement, the frying stage consistently limited the overall throughput of the process.
+
+| Process Step | Observation | Improvement Opportunity |
+|--------------|-------------|-------------------------|
+| Frying | Longest stage in every experiment and primary system bottleneck. | Improve oil temperature control, reduce batch size, or use larger equipment. |
+| Vinegar-Water Boiling | Larger batches required multiple boiling cycles due to limited pot capacity. | Use a larger pot or reduce the number of potatoes per batch. |
+| Cutting | Early experiments showed high variation due to knife choice and technique. | Standardize cutting method and continue using the original knife. |
+| Drying | Longer drying improved crispiness but increased preparation time. | Determine the minimum effective drying time. |
+| Workflow Organization | Early logs contained idle time between stages. Later experiments introduced overlapping tasks to improve efficiency. | Continue using parallel preparation where practical. |
 
 ### MOST Analysis
 
