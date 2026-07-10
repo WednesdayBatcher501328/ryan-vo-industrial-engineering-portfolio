@@ -62,7 +62,6 @@ Industrial Engineering student with hands-on experience in process improvement, 
 ### Contact
 - Email: [rdvo@cpp.edu](mailto:rdvo@cpp.edu)
 - LinkedIn: [linkedin.com/in/ryan-vo-985152333](https://www.linkedin.com/in/ryan-vo-985152333/)
-- Resume: [Download PDF](IE%20Resume.pdf)
 
 ---
 
