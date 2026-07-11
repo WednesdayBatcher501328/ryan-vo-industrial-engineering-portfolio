@@ -202,8 +202,6 @@ The improved worksheet captured detailed process information including:
 | Soaking | 60 |
 | Peeling | 45 |
 
-*(Insert Pareto Chart here.)*
+### Batch #13 Pareto Chart
 
- **Supporting Document**
-
-- [Batch #13 Data Collection Sheet (PDF)](batch13-data-sheet.pdf)
+![Batch #13 Pareto Chart](images/batch13_pareto_chart.png)
