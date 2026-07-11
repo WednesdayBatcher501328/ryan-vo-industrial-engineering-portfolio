@@ -1,7 +1,7 @@
 # Lean Six Sigma Process Improvement
 
 ## Overview
-This project applies the Lean Six Sigma principles in order to improve the efficiency, as well as consistency, of a homemade crispy potato cooking process. Over numerous cooking experiemnts, different times of each step were recorded, bottlenecks were identified, and numerous workflow changes were tested in order to prevent any time being wasted, yet still maintaining product quality. [Crispy Potato Process Improvement Study](https://docs.google.com/document/d/1WlDqDlYiCFau1NP5nDMF9QukuyeeqHQd62n8nviTpOc/edit?tab=t.0)
+This project applies the Lean Six Sigma principles in order to improve the efficiency, as well as consistency, of a homemade crispy potato cooking process. Over numerous cooking experiemnts, different times of each step were recorded, bottlenecks were identified, and numerous workflow changes were tested in order to prevent any time being wasted, yet still maintaining product quality. [Crispy Potato Process Improvement Study](https://drive.google.com/drive/folders/11wcdyJ_9n11BDbFKttX3Tapga-7NwzLa)
 
 ## DMAIC
 ### Define
