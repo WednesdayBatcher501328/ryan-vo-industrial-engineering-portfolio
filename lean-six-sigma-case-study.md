@@ -206,11 +206,32 @@ The improved worksheet captured detailed process information including:
 
 ![Batch #13 Pareto Chart](batch13_pareto_chart.png)
 
-This mathematical stratification validates the structural boundaries of the operation:
+### Pareto Analysis
 
-1. **The Vital Few:** Frying acts as the overwhelming process constraint, independently consuming 50.66% of the timeline. This thermal phase is governed by chemical and recipe parameters rather than human labor variance, identifying it as a fixed systemic boundary. 
-2. **The Trivial Many:** Manual, labor-intensive preparation steps (Cutting, Soaking, and Peeling) contribute a negligible combined total of 12.81% to the process lead time. 
+The Batch #13 validation study used Pareto analysis to quantify how total process time was distributed across the standardized workflow. Unlike the first twelve production logs, this batch focused on validating the process using an improved data collection worksheet rather than introducing additional workflow changes.
 
-Cross-referencing Batch #13 against the historical Batches 1–12 baseline yields a critical Measurement System Analysis (MSA) insight. By reducing the production volume down to a single-potato pilot run, manual prep variance was effectively eliminated. Peeling and Cutting dropped from a historical average of ~12% down to single-digit percentages, proving that multi-potato handling constraints drove the labor inefficiencies in previous runs.
+The results demonstrate the Pareto Principle (80/20 Rule). Frying accounted for 1,040 seconds (50.66%) of the total measured process time. Combined with Final Drying and Water Boiling, these three operations represented 81.34% of the total active cycle time. In contrast, the remaining preparation steps contributed less than 20%, indicating that optimizing minor preparation tasks alone would have limited impact on overall process efficiency.
 
-Furthermore, a data integrity evaluation reveals that total active stopwatch time sums up to exactly 2,053 seconds. When mapped against the chronological start time (11:22) and final fry completion time (12:03), a total wall-clock window of 41 minutes (2,460 seconds) elapsed. This mathematically exposes a hidden **Muda of Waiting (Queue Time) of exactly 407 seconds** interspersed between process steps. Future iterations will mandate dual-timestamp logging to map and mitigate this non-value-added transition waste.
+### Validation Study (Batch #13)
+
+Batch #13 served as a single-potato validation study designed to reduce variation associated with handling multiple potatoes. Rather than testing new improvements, this experiment verified that the standardized workflow developed during the original twelve trials could be measured consistently using an enhanced Industrial Engineering data collection format.
+
+Compared with earlier production batches, preparation stages required substantially less time while following the same standardized workflow, supporting the conclusion that much of the observed variation in previous experiments was influenced by increased batch size.
+
+### Waiting Time Analysis
+
+Comparing active process time with the overall production timeline identified an additional improvement opportunity.
+
+* Total active stopwatch time: 2,053 seconds
+* Elapsed wall-clock time: 2,460 seconds
+* Non-value-added waiting time: 407 seconds
+
+These transition periods represent opportunities to reduce unnecessary waiting through improved workflow organization and standardized task sequencing. Future studies will incorporate continuous timestamp logging to better quantify these intervals.
+
+### Process Constraint Evaluation
+
+Although Frying represented the largest portion of total process time, the longest activity is not necessarily the system bottleneck.
+
+From an Industrial Engineering perspective, a true bottleneck is the process that limits overall throughput. Determining that constraint requires evaluating equipment capacity, batch size, and production flow—not simply the duration of a single operation.
+
+Because Batch #13 was conducted as a controlled single-potato validation, it establishes a reliable baseline for future studies involving throughput analysis, takt time calculations, workstation balancing, and larger production batches.
