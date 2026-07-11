@@ -153,3 +153,29 @@ flowchart LR
     J --> K
     N --> O([End])
 ```
+## Data Analysis
+This section presents quantitative analyses performed using the data collected throughout the study. Rather than relying solely on observations from individual logs, these analyses summarize trends across multiple production batches and identify opportunities for process improvement.
+
+### Overview
+Following the completion of the original twelve production trials, an additional validation batch was conducted using an improved data collection worksheet. Rather than introducing new process changes, this experiment focused on verifying the standardized workflow while demonstrating Industrial Engineering analysis techniques. The objective was to organize process measurements into a structured dataset that could be analyzed using Lean Six Sigma tools such as Pareto analysis.
+
+### Objective
+Validate the standardized crispy potato process using an improved data collection method while demonstrating quantitative process analysis. This validation batch emphasizes objective measurement, process visualization, and data-driven decision making rather than introducing additional process modifications.
+
+### Data Collection
+An improved data collection worksheet was developed to capture more detailed process information than the original logs.
+The worksheet records:
+* Batch number
+* Date
+* Material classification
+* Input quality rating
+* Potato quantity
+* Process step
+* Step start and end times
+* Stopwatch duration (seconds)
+* Input mass
+* Scrap mass
+* Yield percentage
+
+This standardized format supports future statistical analysis and simplifies comparisons between production batches.
+(Insert your Batch #13 data table here.)
