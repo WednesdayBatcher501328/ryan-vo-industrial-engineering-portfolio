@@ -2,7 +2,7 @@
 
 ### 👤 Author
 * **Ryan D. Vo** – Cal Poly Pomona Industrial Engineering
-* **Project Timeline:** June 2026
+* **Project Timeline:** June–July 2026
 * **Project Methodology:** DMAIC (Define, Measure, Analyze, Improve, Control)
 * **Dataset Source:** [Kaggle Manufacturing Defects Dataset](https://www.kaggle.com/datasets/fahmidachowdhury/manufacturing-defects/data)
 
@@ -13,15 +13,15 @@
 <br>
 
 ## 1. Define & Measure (DMAIC Framework)
-In high-volume manufacturing environments like Caterpillar, minimizing defect rates and predicting repair overhead is essential to sustaining lean production lines. 
+In high-volume manufacturing environments, minimizing defect rates and repair costs is essential for improving product quality and reducing waste. This project analyzes manufacturing defect data using SQL, Python, and Excel to identify defect trends and support process improvement decisions. 
 
 ### Project Objectives & Scope:
 * **Analyzed 5,000+ defect logs using SQL/Python to map severity and frequency patterns.**
 * **Isolated top 2 defects causing 80% of variation using Excel Pareto and Pivot Tables.**
-* **Utilized Python (Matplotlib/Seaborn) to track repair costs and prioritize line fixes.**
+* **Used Python to analyze manufacturing defect data and create visualizations.**
 
 ## 2. Data Engineering & Relational SQL Aggregations
-To aggregate the data logs across categorical groups, a relational SQL architecture is utilized to evaluate total defect frequencies and extract financial averages. 
+The dataset was queried using SQL to summarize defect frequencies and calculate average repair costs for each defect type and severity level. 
 
 ```sql
 -- Query to map defect distribution and calculate mean repair costs
@@ -38,15 +38,15 @@ ORDER BY total_occurrences DESC;
 ---
 
 ## 3. Pareto Principle Modeling (Excel Analysis)
-By building out frequency-based Pivot Tables in Microsoft Excel, an industrial 80/20 Pareto distribution is established. This data configuration isolates the exact defect categories that represent the "vital few" root causes behind the majority of manufacturing line disruptions.
+Pivot Tables and Pareto charts were created in Microsoft Excel to apply the 80/20 principle. This analysis identified the defect categories that contributed most to overall process variation.
 
 ### Manufacturing Defect Pareto Distribution:
-*(Placeholder: Coming soon!)*
+![Manufacturing Defect Pareto Chart](batch13_pareto_chart.png)
 
 ---
 
 ## 4. Exploratory Data Visualization (Python & Inline SQL)
-To aggregate our raw logs and isolate process variation metrics without deploying external database engines, the following comprehensive analytical script queries our tracking data inside an in-memory SQL database and renders automated variance boxplots:
+The dataset was loaded into an in-memory SQLite database so SQL queries could be executed directly from Python. The resulting summaries were then visualized using Python to examine repair cost variation across defect categories.
 
 ```python
 import pandas as pd
@@ -102,6 +102,8 @@ plt.tight_layout()
 plt.savefig("repair_cost_variation.png", dpi=300)
 plt.show()
 ```
+
+Note: I primarily used Pandas, SQL, and Matplotlib during the project. The boxplot example was built using Seaborn because it provides a convenient statistical plotting function.
 
 ### Process Variation Analysis Output
 
